@@ -1,5 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
+import { useState } from "react";
 
 const StInput = styled.input`
   width: 200px;
@@ -35,7 +36,11 @@ const StBtn = styled.button`
   }
 `;
 
-function Input({ product, setProduct, price, setPrice }) {
+function Input() {
+  // Input
+  const [product, setProduct] = useState("");
+  const [price, setPrice] = useState(0);
+
   const productChangeHandler = (e) => {
     setProduct(e.target.value);
   };

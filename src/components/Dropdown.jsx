@@ -98,9 +98,12 @@ const StDropItem2 = styled.div`
   }
 `;
 
-function Dropdown({ selected, setSelected, selected2, setSelected2 }) {
+function Dropdown() {
   const [isActive, setIsActive] = useState(false);
   const [isActive2, setIsActive2] = useState(false);
+  const [selected, setSelected] = useState("Choose One ☕️");
+  const [selected2, setSelected2] = useState("Choose One 🍰");
+
   const options = ["Americano", "Latte", "Espresso", "Decaffeine"];
   const desserts = ["cake", "muffin", "bagel", "sandwich"];
 

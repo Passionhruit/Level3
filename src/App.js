@@ -7,40 +7,13 @@ import Dropdown from "./components/Dropdown";
 import GlobalStyle from "./GlobalStyle";
 
 function App() {
-  // Input
-  const [product, setProduct] = useState("");
-  const [price, setPrice] = useState(0);
-
-  // Modal
-  const [isOpen, setIsOpen] = useState(false);
-  const [isOpen2, setIsOpen2] = useState(false);
-
-  // Select
-  const [selected, setSelected] = useState("Choose One ☕️");
-  const [selected2, setSelected2] = useState("Choose One 🍰");
-
   return (
     <>
       <GlobalStyle />
       <Button />
-      <Input
-        product={product}
-        setProduct={setProduct}
-        price={price}
-        setPrice={setPrice}
-      />
-      <Modal
-        isOpen={isOpen}
-        setIsOpen={setIsOpen}
-        isOpen2={isOpen2}
-        setIsOpen2={setIsOpen2}
-      />
-      <Dropdown
-        selected={selected}
-        setSelected={setSelected}
-        selected2={selected2}
-        setSelected2={setSelected2}
-      />
+      <Input />
+      <Modal />
+      <Dropdown />
     </>
   );
 }

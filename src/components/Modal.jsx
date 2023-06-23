@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { styled } from "styled-components";
 
 // 모달 1 디자인
@@ -99,7 +100,11 @@ const Stbtn22 = styled.button`
 
 // modal
 
-function Modal({ isOpen, setIsOpen, isOpen2, setIsOpen2 }) {
+function Modal() {
+  // Modal
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
+
   const modalHandler = () => {
     setIsOpen(!isOpen);
   };
