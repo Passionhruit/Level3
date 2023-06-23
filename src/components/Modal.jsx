@@ -31,7 +31,7 @@ const BcDiv = styled.div`
 const StDiv = styled.div`
   width: 300px;
   height: 200px;
-  z-index: 999;
+  z-index: 9999;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -81,7 +81,7 @@ const BcDiv2 = styled.div`
 const StDiv2 = styled.div`
   width: 300px;
   height: 200px;
-  z-index: 999;
+  z-index: 9999;
   position: fixed;
   top: 50%;
   left: 50%;

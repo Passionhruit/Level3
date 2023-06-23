@@ -42,7 +42,6 @@ const StDropContent = styled.div`
   background-color: aliceblue;
   box-shadow: 3px 3px 10px 6px rgba((0, 0, 0, 0.06));
   width: 90%;
-  z-index: 100;
 `;
 
 const StDropItem = styled.div`
@@ -86,7 +85,6 @@ const StDropContent2 = styled.div`
   background-color: aliceblue;
   box-shadow: 3px 3px 10px 6px rgba((0, 0, 0, 0.06));
   width: 90%;
-  z-index: 100;
 `;
 
 const StDropItem2 = styled.div`
