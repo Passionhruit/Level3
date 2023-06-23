@@ -16,7 +16,8 @@ function App() {
   const [isOpen2, setIsOpen2] = useState(false);
 
   // Select
-  const [selected, setSelected] = useState("Choose One");
+  const [selected, setSelected] = useState("Choose One ☕️");
+  const [selected2, setSelected2] = useState("Choose One 🍰");
 
   return (
     <>
@@ -34,7 +35,12 @@ function App() {
         isOpen2={isOpen2}
         setIsOpen2={setIsOpen2}
       />
-      <Dropdown selected={selected} setSelected={setSelected} />
+      <Dropdown
+        selected={selected}
+        setSelected={setSelected}
+        selected2={selected2}
+        setSelected2={setSelected2}
+      />
     </>
   );
 }

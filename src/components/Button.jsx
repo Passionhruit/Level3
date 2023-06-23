@@ -57,7 +57,7 @@ function Button() {
           return (
             <NegBtn
               onClick={() => {
-                alert(`${box} 버튼입니다.`);
+                prompt(`${box} 버튼일까요?`);
               }}
             >
               {box}
