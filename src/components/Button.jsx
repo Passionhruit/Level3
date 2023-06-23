@@ -31,13 +31,29 @@ function Button() {
       <h1>Button</h1>
       <div>
         {btnList.map((box) => {
-          return <PriBtn>{box}</PriBtn>;
+          return (
+            <PriBtn
+              onClick={() => {
+                alert(`${box} 버튼입니다.`);
+              }}
+            >
+              {box}
+            </PriBtn>
+          );
         })}
       </div>
       <div>
         {" "}
         {btnList2.map((box) => {
-          return <NegBtn>{box}</NegBtn>;
+          return (
+            <NegBtn
+              onClick={() => {
+                alert(`${box} 버튼입니다.`);
+              }}
+            >
+              {box}
+            </NegBtn>
+          );
         })}
       </div>
     </div>
