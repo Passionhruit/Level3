@@ -3,19 +3,19 @@ import { useState } from "react";
 import { styled } from "styled-components";
 
 const Container = styled.div`
-  z-index: 1;
   width: 500px;
   height: 200px;
   border: 1px solid gray;
+  overflow: hidden;
   overflow: visible;
   background-color: white;
 `;
 
 const StDrop = styled.div`
+  position: relative;
   margin-top: 80px;
   width: 300px;
   user-select: none;
-  position: relative;
 `;
 
 const StDropBtn = styled.div`
