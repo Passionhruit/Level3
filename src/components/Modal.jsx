@@ -9,6 +9,7 @@ const Btn1 = styled.button`
   background-color: #9facdd;
   border-radius: 10px;
   border-style: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   &:hover {
     border: 1.5px solid gray;
@@ -59,6 +60,7 @@ const Btn2 = styled.button`
   background-color: #dbdfaa;
   border-radius: 10px;
   border-style: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   &:hover {
     border: 1.5px solid gray;

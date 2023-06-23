@@ -8,6 +8,7 @@ const Container = styled.div`
   height: 200px;
   border: 1px solid gray;
   overflow: visible;
+  background-color: white;
 `;
 
 const StDrop = styled.div`
